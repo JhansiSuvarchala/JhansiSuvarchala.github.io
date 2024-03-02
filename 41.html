@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="course">Select course:</label>
+        <select id="course" name="course">
+        <option value="select">Select</option>
+        <option value="cse">Computer Science</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="mech">Mechanical Engineering</option>
+        </select><br><br>
+
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="programming" name="interests[]" value="programming">
+        <label for="programming">Programming</label><br>
+        <input type="checkbox" id="sac" name="interests[]" value="sac">
+        <label for="sac">SAC</label><br>
+        <input type="checkbox" id="sports" name="interests[]" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" accept="image/*"><br><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        
+    </form>
+</body>
+</html>
